@@ -39,15 +39,15 @@ class Looper {
     }
     void update_();
     void draw_(float interpolation);
+    int num_anim_;
+    int num_input_;
+    int num_viz_;
     static Looper* looper_;
     int updates_per_second_;
     unsigned long next_update_tick_;
     unsigned long next_draw_tick_;
     float draw_millis_per_tick_;
     float update_millis_per_tick_;
-    int num_anim_;
-    int num_input_;
-    int num_viz_;
     Animation* animations_[10];
     Visualization* visualizations_[10];
     Input* inputs_[10];
