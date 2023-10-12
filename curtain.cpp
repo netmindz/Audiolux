@@ -1,7 +1,7 @@
 #include "curtain.h"
 
 #include <Logging.h>
-#include <Math.h>
+
 
 using namespace pixl;
 
