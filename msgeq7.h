@@ -15,10 +15,10 @@ class MSGEQ7Input : public Input {
   private:
     void updateAmplitude();
     void updateFrequency();
-    int strobe_pin_;
-    int reset_pin_;
     int left_pin_;
     int right_pin_;
+    int strobe_pin_;
+    int reset_pin_;
     float min_amp_;
     float max_amp_;
     float min_freq_;
