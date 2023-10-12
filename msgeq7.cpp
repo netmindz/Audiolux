@@ -30,8 +30,8 @@ float scaleValue(float value, float value_min, float value_max) {
   value_max = (value_max - value_min);
   value = (value / value_max);
 
-  value = min(1.0, value);
-  value = max(0.0, value);
+  value = min(1.0, (double) value);
+  value = max(0.0, (double) value);
 
   return value;
 }
