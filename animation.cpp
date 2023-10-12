@@ -1,4 +1,4 @@
-#include <Assert.h>
+
 #include "animation.h"
 
 using namespace pixl;

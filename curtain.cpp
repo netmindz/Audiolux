@@ -1,5 +1,5 @@
 #include "curtain.h"
-#include <Assert.h>
+
 #include <Logging.h>
 #include <Math.h>
 
