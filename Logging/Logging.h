@@ -8,9 +8,9 @@
 	#include "WProgram.h"
 #endif
 //#include "pins_arduino.h"
-extern "C" {
-  #include <avr/io.h>
-}
+// extern "C" {
+//   #include <avr/io.h>
+// }
 
 
 #define LOG_LEVEL_NOOUTPUT 0 
